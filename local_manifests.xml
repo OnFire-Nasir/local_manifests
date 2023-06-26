@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Tracking -->
+ <remote name="github" fetch="https://github.com"/>
+ <remote name="OnFire-Nasir" fetch="https://github.com/OnFire-Nasir"/>
+ <remote name="nasironfire07" fetch="https://gitlab.com/nasironfire07"/>
+  <remote name="gitlab" fetch="https://gitlab.com"/>
+
+  
+<!-- Trees -->
+ <project path="device/xiaomi/lisa" name="device_xiaomi_lisa" remote="github" revision="13" clone-depth="1" />
+ <project path="vendor/xiaomi/lisa" name="vendor_xiaomi_lisa" remote="github" revision="arrow-13.0" clone-depth="1" />
+ <project path="kernel/xiaomi/lisa" name="kernel_xiaomi_lisa" remote="github" revision="thirteen" clone-depth="1" />
+ <project path="vendor/xiaomi/lisa-miuicamera" name="vendor-xiaomi-lisa-miuicamera" remote="gitlab" revision="thirteen" clone-depth="1" />
+ 
+</manifest>
